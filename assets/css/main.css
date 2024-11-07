@@ -2284,24 +2284,6 @@ input, select, textarea {
 
 			#main > section.five {
 				background-color: #ecf1f1;
-				
-				/* Icono de GitHub */
-				.github-icon {
-					display: inline-block;
-					color: #ccd6f6;
-					text-decoration: none;
-					font-size: 1.2rem;
-					margin-top: 10px;
-					transition: color 0.3s ease;
-				}
-				
-				.github-icon i {
-					margin-right: 8px;
-				}
-				
-				.github-icon:hover {
-					color: #64ffda;
-				}
 			}
 
 /* Wide */
