@@ -2252,7 +2252,6 @@ input, select, textarea {
 				display: flex; /* Activamos flexbox */
   				justify-content: space-between;
   				align-items: center; /* Alineación vertical */
-				font-family: 'Henny Penny', Arial;
 			}
 
 			#main > section img {
