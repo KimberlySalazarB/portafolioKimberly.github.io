@@ -2268,6 +2268,10 @@ input, select, textarea {
 			}
 
 			#main > section.three {
+				display: flex;
+  				justify-content: space-between;
+ 				align-items: center;
+				text-align: justify;
 				background-color: #ecf1f1;
 			}
 
