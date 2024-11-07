@@ -2288,7 +2288,7 @@ input, select, textarea {
 
 			/* Estilo para cada proyecto */
 			.item.project {
-				background-color: #d3d3d3; /* Fondo plomo */
+				background-color: #e1c4dc; /* Fondo plomo */
 				padding: 20px; /* Espaciado interno */
 				border-radius: 10px; /* Bordes redondeados */
 				margin-bottom: 20px; /* Espaciado inferior */
@@ -2304,7 +2304,7 @@ input, select, textarea {
 			.item.project h3 {
 				margin-top: 15px; /* Espaciado superior del título */
 				font-size: 1.5em; /* Tamaño del título */
-				color: #333; /* Color del texto */
+				color: #333333; /* Color del texto */
 			}
 
 			.item.project p {
