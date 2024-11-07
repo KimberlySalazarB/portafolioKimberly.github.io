@@ -2247,8 +2247,11 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
-				background-image: url("../../images/cerezos.jpg");
+				background-image: url("../../images/banner.jpg"), url("../../images/cerezos.jpg");
+  				background-repeat: no-repeat;
+  				background-position: center;
+  				background-size: cover;
+  				background-blend-mode: multiply;
 			}
 
 			#main > section.two {
