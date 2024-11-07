@@ -2267,6 +2267,9 @@ input, select, textarea {
 				background-color: #f5fafa;
 			}
 
+			#main > section.three img {
+				width: 50%; /* Ajusta el ancho de la imagen */
+			}
 			#main > section.three {
 				display: flex;
   				justify-content: space-between;
