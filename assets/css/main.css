@@ -2268,13 +2268,9 @@ input, select, textarea {
 			}
 
 			#main > section.three img {
-				width: 50%; /* Ajusta el ancho de la imagen */
+				width: 30%; /* Ajusta el ancho de la imagen */
 			}
 			#main > section.three {
-				display: flex;
-  				justify-content: space-between;
- 				align-items: center;
-				text-align: justify;
 				background-color: #ecf1f1;
 			}
 
