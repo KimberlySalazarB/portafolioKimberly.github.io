@@ -1,151 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio de Nohereily Salazar</title>
-    <!-- Font Awesome CDN para iconos -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wanderlust   
+ - Agencia de Viajes</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <div class="container">
-        <!-- Sección de introducción con fondo agradable -->
-        <div class="intro sticky-section" id="home">
-            <h1>
-                <span id="first-name">Nohereily</span><br>
-                <span id="last-name">Salazar</span> <!-- Nombre en dos líneas -->
-            </h1>
-            <h2>Estudiante de Ingeniería Informática</h2>
-            <p>Ciencia de Datos | IA | Desarrollo Web</p>
-    
-            <!-- Redes sociales con íconos mejorados -->
-            <div class="social-links">
-                <a href="https://github.com/KimberlySalazarB" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                <a href="https://pe.linkedin.com/in/nohereily-kimberly-salazar-berrios-8a6533293" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:nohereily.salazar@upch.pe" aria-label="Correo Electrónico"><i class="fas fa-envelope"></i></a>
-            </div>
-    
-            <nav>
-                <ul>
-                    <li><a href="#about">Sobre mí</a></li>
-                    <li><a href="#projects">Proyectos</a></li>
-                    <li><a href="#photos">Fotos</a></li>
-                    <li><a href="#contact">Contacto</a></li>
-                    <li><a href="CV" download="CURRICULUM_Original.pdf">Descargar CV</a></li>
-                </ul>
-            </nav>
-        </div>
-
-        <!-- Contenido principal -->
-        <div class="content">
-            <!-- Sección sobre mí -->
-            <section id="about">
-                <h2>Sobre mí</h2>
-                <p>¡Hola! Soy <span class="highlight">Nohereily Salazar</span>, una apasionada estudiante de <span class="highlight">Ingeniería Informática</span> en la <span class="highlight">Universidad Peruana Cayetano Heredia</span>. Me interesa profundamente la <span class="highlight">Ciencia de Datos</span> y la <span class="highlight">Inteligencia Artificial</span>, y estoy en constante búsqueda de nuevas oportunidades para mejorar mis habilidades. Soy una persona adaptable, proactiva y me encanta trabajar en equipo.</p>
-                <p>Mis intereses incluyen:</p>
-                <ul>
-                    <li><span class="highlight">Bases de datos</span></li>
-                    <li><span class="highlight">Desarrollo web</span></li>
-                    <li><span class="highlight">Optimización de procesos</span></li>
-                    <li><span class="highlight">Ciencia de datos</span></li>
-                </ul>
-            </section>
-
-            <!-- Sección Tech Stack -->
-            <section id="tech-stack" class="container tech-stack">
-                <h2>💻 Tech Stack</h2>
-                <div class="stack-category">
-                    <h3>Lenguajes</h3>
-                    <img src="https://img.shields.io/badge/Python%20-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-                    <img src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
-                </div>
-
-                <div class="stack-category">
-                    <h3>Front-End</h3>
-                    <img src="https://img.shields.io/badge/HTML5%20-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-                    <img src="https://img.shields.io/badge/CSS3%20-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-                </div>
-
-                <div class="stack-category">
-                    <h3>Herramientas</h3>
-                    <img src="https://img.shields.io/badge/GitHub%20-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-                    <img src="https://img.shields.io/badge/VS%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Visual Studio Code">
-                </div>
-            </section>
-
-            <!-- Sección de fotos con galería -->
-            <section id="photos">
-                <h2>¿De dónde soy?</h2>
-                <div class="photo-gallery">
-                    <div class="gallery-item" onclick="openModal(1)">
-                        <img src="Img/Img1 (1).jpeg" alt="Yo soy de Chosica, buen clima y gran lugar para pasear.">
-                    </div>
-                    <div class="gallery-item" onclick="openModal(2)">
-                        <img src="Img/Img2.jpeg" alt="El puente colgante es ideal para fotos.">
-                    </div>
-                    <div class="gallery-item" onclick="openModal(3)">
-                        <img src="Img/Img3.jpeg" alt="Chosica tiene de todo si sabes buscar.">
-                    </div>
-                    <div class="gallery-item" onclick="openModal(4)">
-                        <img src="Img/Img4.jpeg" alt="¿Te animas a ir?">
-                    </div>
-                </div>
-            </section>
-
-            <!-- Modal para mostrar la imagen ampliada -->
-            <div id="imageModal" class="modal">
-                <span class="close" onclick="closeModal()">&times;</span>
-                <img class="modal-content" id="modalImage">
-                <div id="caption"></div>
-            </div>
-
-            <!-- Sección de proyectos mejorada -->
-            <section id="projects" class="projects-section">
-                <h2>Proyectos</h2>
-                <div class="projects-container">
-                    <div class="project-card">
-                        <a href="https://github.com/VictorNikolai/ProyectoHumedal" target="_blank">
-                            <img src="Img/Humedal.jpg" alt="Optimización de Humedales" class="project-image">
-                        </a>
-                        <div class="project-info">
-                            <h3>Optimización de Humedales</h3>
-                            <p>Diseño y optimización de humedales para el tratamiento de aguas residuales.</p>
-                            <a href="https://github.com/VictorNikolai/ProyectoHumedal" target="_blank" class="github-icon">
-                                <i class="fab fa-github"></i> Ver en GitHub
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="project-card">
-                        <a href="https://github.com/VictorNikolai/Gestion-de-prematricula" target="_blank">
-                            <img src="Img/MatriculaDigital.png" alt="Matriculación Digital" class="project-image">
-                        </a>
-                        <div class="project-info">
-                            <h3>Matriculación Digital</h3>
-                            <p>Sistema de matriculación de estudiantes de forma eficiente y automatizada.</p>
-                            <a href="https://github.com/VictorNikolai/Gestion-de-prematricula" target="_blank" class="github-icon">
-                                <i class="fab fa-github"></i> Ver en GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Sección de contacto -->
-            <section id="contact">
-                <h2>Contacto</h2>
-                <p>Email: <a href="mailto:nohereily.salazar@upch.pe">nohereily.salazar@upch.pe</a></p>
-            </section>
-        </div>
+  <header>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Destinos</a>
+      <a href="#">Sobre Nosotros</a>
+      <a href="#">Contacto</a>
+    </nav>
+    <div class="logo">
+      <h1>Wanderlust</h1>
+      <h2>Tus Aventuras Nos Inspiran</h2>
     </div>
+  </header>
 
-    <footer>
-        <p>&copy; 2024 Nohereily Salazar. Todos los derechos reservados.</p>
-    </footer>
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Descubre el Mundo</h1>
+        <p>Vive experiencias inolvidables.</p>
+        <button>Explora Ahora</button>
+      </div>
+    </section>
 
-    <script src="script.js"></script>
+    <section class="services">
+      <h2>Nuestros Servicios</h2>
+      <div class="service-card">
+        <h3>Vuelos</h3>
+        <p>Encuentra los mejores vuelos a tu destino.</p>
+      </div>
+      <div class="service-card">
+        <h3>Hoteles</h3>
+        <p>Reserva tu alojamiento ideal.</p>
+      </div>
+      <div class="service-card">
+        <h3>Paquetes Turísticos</h3>
+        <p>Disfruta de paquetes completos y personalizados.</p>
+      </div>
+    </section>
+
+    <section class="about">
+      <h2>Sobre Nosotros</h2>
+      <p>Somos una agencia de viajes apasionada por conectar a las personas con el mundo.</p>
+      <img src="nosotros.jpg" alt="Nuestro equipo">
+    </section>
+
+    <section class="contact">
+      <h2>Contacto</h2>
+      <form>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name">
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Wanderlust 2024</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
 
