@@ -1,6 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
 
 /*
 	Prologue by HTML5 UP
@@ -132,8 +133,6 @@ input, select, textarea {
 	}
 
 		h2.alt {
-			font-family:'Henny Penny', Arial;
-    		font-size: 2em; /* Puedes ajustar el tamaño según lo necesites */
     		line-height: 1.5;
 			color: #888;
 		}
