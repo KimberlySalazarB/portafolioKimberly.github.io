@@ -131,6 +131,8 @@ input, select, textarea {
 	}
 
 		h2.alt {
+			font-family: 'Henny Penny', Arial;
+    		font-size: 2em;
 			color: #888;
 		}
 
