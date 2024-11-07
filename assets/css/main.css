@@ -147,8 +147,6 @@ input, select, textarea {
 	}
 
 		header > p {
-			display: flex;
-  			justify-content: space-between;
 			margin: 1em 0 0 0;
 		}
 
@@ -247,7 +245,7 @@ input, select, textarea {
 		@media screen and (max-width: 960px) {
 
 			.container {
-				width: 100%;
+				width: 40%;
 			}
 
 		}
@@ -2218,6 +2216,7 @@ input, select, textarea {
   			justify-content: space-between;
   			align-items: center; /* Alineación vertical */
   			background-image: url("images/overlay.png");
+			text-align: justify; /* Justifica el texto */
 		}
 
 			#main > section.dark {
