@@ -2288,7 +2288,7 @@ input, select, textarea {
 
 			/* Estilo para cada proyecto */
 			.item.project {
-				background-color: #e1c4dc; /* Fondo plomo */
+				background-color: #f8b0c8; /* Fondo plomo */
 				padding: 20px; /* Espaciado interno */
 				border-radius: 10px; /* Bordes redondeados */
 				margin-bottom: 20px; /* Espaciado inferior */
@@ -2325,7 +2325,7 @@ input, select, textarea {
 			}
 
 			.item.project .social-icons a:hover {
-				color: #0077b5; /* Cambiar color al pasar el cursor */
+				color: #f7fafc; /* Cambiar color al pasar el cursor */
 			}
 
 /* Wide */
